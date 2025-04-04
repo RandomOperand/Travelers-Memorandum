@@ -74,10 +74,11 @@ button:hover {
 
 /* About Section */
 #about {
-    margin: 20px;
+    margin: 20px auto;
     padding: 1rem;
     background-color: #fff; 
     border-radius: 8px;
+    width: 55%;
 }
 
 /* Titling section */
