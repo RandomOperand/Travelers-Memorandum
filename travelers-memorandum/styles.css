@@ -76,7 +76,7 @@ button:hover {
 #about {
     margin: 20px;
     padding: 1rem;
-    background-color: #fff;  /* Light mode background */
+    background-color: #fff; 
     border-radius: 8px;
 }
 
@@ -84,6 +84,10 @@ button:hover {
 #titling {
     background-color: #f4f4f4;
     color: #333;
+}
+
+#titling p {
+    color: #222;  
 }
 
 /* Light/Dark Mode Styles */
