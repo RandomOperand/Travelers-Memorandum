@@ -130,6 +130,10 @@ body.dark-mode #blog-list {
     color: #ddd;
 }
 
+body.dark-mode #main-title {
+    color: #fff;  
+}
+
 body.dark-mode #blog-list ul li a {
     color: #ddd;
 }
