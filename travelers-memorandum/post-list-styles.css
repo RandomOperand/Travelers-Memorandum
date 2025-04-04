@@ -1,0 +1,139 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    margin: 0px;
+    background-color: #f4f4f4;  /* Light mode background */
+    color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation Styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444;
+    color: white;
+    padding: 0.7rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    padding: 0.5rem;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+/* Blog List Styling */
+#blog-list {
+    margin: 20px;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+#blog-list h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+#blog-list ul {
+    list-style: none;
+}
+
+#blog-list ul li {
+    margin-bottom: 10px;
+}
+
+#blog-list ul li a {
+    font-size: 1.2rem;
+    color: #444;
+    text-decoration: none;
+}
+
+#blog-list ul li a:hover {
+    color: #0077cc;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode header {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode nav {
+    background-color: #222;
+}
+
+body.dark-mode button {
+    background-color: #222;
+}
+
+body.dark-mode button:hover {
+    background-color: #444;
+}
+
+body.dark-mode #blog-list {
+    background-color: #444;
+    color: #ddd;
+}
+
+body.dark-mode #blog-list ul li a {
+    color: #ddd;
+}
+
+body.dark-mode #blog-list ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Layout for smaller screens */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Stack the navigation links vertically */
+        text-align: center;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+}
