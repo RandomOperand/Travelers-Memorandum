@@ -93,7 +93,8 @@ body.dark-mode {
 }
 
 body.dark-mode header {
-    background-color: #222;
+    background-color: #333;
+    color: white;
 }
 
 body.dark-mode nav {
@@ -106,6 +107,10 @@ body.dark-mode button {
 
 body.dark-mode button:hover {
     background-color: #444;
+}
+body.dark-mode #about {
+    background-color: #444;  
+    color: #ddd;             
 }
 
 /* Layout for smaller screens */
