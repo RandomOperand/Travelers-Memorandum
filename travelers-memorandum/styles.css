@@ -26,7 +26,7 @@ body {
 
 /* Header and Navigation Bar */
 header {
-    padding: 10px 0;
+    padding: 0px 0;
     background-color: #f4f4f4;
     text-align: center;
 }
@@ -38,8 +38,8 @@ nav {
     align-items: center;
     background-color: #444;
     color: white;
-    padding: 1rem;
-    max-width: 1200px;
+    padding: 0.7rem;
+    max-width: 3000px;
     margin: 0 auto;
 }
 
@@ -83,7 +83,7 @@ button:hover {
 /* Titling section */
 #titling {
     background-color: #f4f4f4;
-    color: #333;
+    color: #ddd;
 }
 
 /* Light/Dark Mode Styles */
