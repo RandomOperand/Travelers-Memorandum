@@ -8,7 +8,7 @@
 /* Body styling */
 body {
     margin: 0px;
-    background-color: #f4f4f4;  /* Light mode background */
+    background-color: #f4f4f4;
     color: #333;
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -111,13 +111,13 @@ body.dark-mode button:hover {
 
 /* Dark mode styling for the About Section */
 body.dark-mode #about {
-    background-color: #444;  /* Dark mode background */
-    color: #ddd;             /* Dark mode text color */
+    background-color: #444;  
+    color: #ddd;             
 }
 
 /* Dark mode styling for the Title */
 body.dark-mode #main-title {
-    color: #fff;
+    color: #fff;  
 }
 
 /* Layout for smaller screens */
