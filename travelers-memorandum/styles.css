@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
+    margin: 20px;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
@@ -40,10 +40,12 @@ nav ul li a {
 #about {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  margin: 0;
+  margin: 30px;
   padding: 0;
   background-color: #f4f4f4;
   color: #333;
+  background-color: #fff;
+  border-radius: 8px;
 }
 
 /* Light/Dark mode button */
