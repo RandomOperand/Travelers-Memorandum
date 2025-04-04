@@ -115,6 +115,11 @@ body.dark-mode #about {
     color: #ddd;             /* Dark mode text color */
 }
 
+/* Dark mode styling for the Title */
+body.dark-mode #main-title {
+    color: #fff;
+}
+
 /* Layout for smaller screens */
 @media (max-width: 768px) {
     nav ul {
