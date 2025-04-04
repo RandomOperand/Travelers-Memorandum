@@ -14,6 +14,14 @@ header {
     text-align: center;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between; /* Spread out the items */
+    align-items: center; /* Align items vertically */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -36,4 +44,33 @@ nav ul li a {
   padding: 0;
   background-color: #f4f4f4;
   color: #333;
+}
+
+/* Light/Dark mode button */
+button {
+    padding: 0.5rem;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 15px; 
+    font-size: 18px;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode header {
+    background-color: #222;
+}
+
+body.dark-mode button {
+    background-color: #222;
+}
+
+body.dark-mode button:hover {
+    background-color: #444;
 }
