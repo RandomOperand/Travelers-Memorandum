@@ -8,7 +8,7 @@
 /* Body styling */
 body {
     margin: 25px;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4;  /* Light mode background */
     color: #333;
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -18,10 +18,10 @@ body {
 #main-title {
     text-align: center;
     padding: 15px 0;
- 	margin: 10px;
+    margin: 10px;
     font-size: 2rem;
     color: #444;
-  	line-height: 1;
+    line-height: 1;
 }
 
 /* Header and Navigation Bar */
@@ -76,14 +76,14 @@ button:hover {
 #about {
     margin: 20px;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #fff;  /* Light mode background */
     border-radius: 8px;
 }
 
+/* Titling section */
 #titling {
-  background-color: #f4f4f4;
-  color: #333;
-  
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 /* Light/Dark Mode Styles */
@@ -108,9 +108,11 @@ body.dark-mode button {
 body.dark-mode button:hover {
     background-color: #444;
 }
+
+/* Dark mode styling for the About Section */
 body.dark-mode #about {
-    background-color: #444;  
-    color: #ddd;             
+    background-color: #444;  /* Dark mode background */
+    color: #ddd;             /* Dark mode text color */
 }
 
 /* Layout for smaller screens */
